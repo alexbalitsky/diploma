@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="Поштова адреса лікаря"
+        android:key="pref_doctor_email"
+        android:summary="Будь ласка, вкажіть поштову адресу лікаря"/>
+    <EditTextPreference android:title="Тема листа"
+        android:key="email_subject"
+        android:summary="Будь ласка, вкажіть тему листа"/>
+    <EditTextPreference android:title="Текст повідомлення"
+        android:key="email_text"
+        android:summary="Будь ласка, вкажіть текст повідомлення"/>
+    <kpi.obalitskyi.diploma.preferences.NumberPickerPreference
+        android:title="Розмір точки"
+        android:key="stroke_width"
+        android:summary="Будь ласка, вкажіть розмір лінії"
+        android:defaultValue="10"/>
+</PreferenceScreen>
